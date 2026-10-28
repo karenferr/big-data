@@ -1,0 +1,19 @@
+﻿# Ambiente Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Dados pessoais
+dados/original/
+dados/tratados/amostra_genero_100.csv
+dados/tratados/amostra_genero_100_classificada.csv
+dados/tratados/amostra_genero_100_original.csv
+
+# Temporários
+*.log
+.DS_Store
